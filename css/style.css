@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+.about {
+  padding: 100px 0;
+}
+
+.about h3,
+.about p {
+  text-align: center;
+}
+
+#aboutus .media {
+  width: 60%;
+  padding: 0 3px;
+}
+
+#aboutus .media.float-right {
+  padding: 0 2px;
+}
+
+@media (max-width: 991.98px) {
+  #aboutus .media {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+#aboutus .media figure,
+#aboutus .media p {
+  margin-bottom: 0;
+}
+
+#aboutus .line img {
+  text-align: center;
+  margin: -13px auto;
+  display: block;
+}
